@@ -1,0 +1,153 @@
+[21Aug2019 15:10:22.730] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190719.225934, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.0.55, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[21Aug2019 15:10:22.733] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_221 by Oracle Corporation
+[21Aug2019 15:10:22.964] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[21Aug2019 15:10:23.472] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[21Aug2019 15:10:24.702] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[21Aug2019 15:10:31.001] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[21Aug2019 15:10:32.191] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.0.55, for MC 1.14.4 with MCP 20190719.225934
+[21Aug2019 15:10:32.191] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.0.55 Initialized
+[21Aug2019 15:10:33.489] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[21Aug2019 15:10:33.639] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[21Aug2019 15:10:33.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21Aug2019 15:10:33.981] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 28.0.55 Target: 28.0.55
+[21Aug2019 15:10:33.987] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[21Aug2019 15:10:38.098] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[21Aug2019 15:10:38.098] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[21Aug2019 15:10:38.190] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[21Aug2019 15:10:38.551] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[21Aug2019 15:10:38.552] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[21Aug2019 15:10:38.552] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[21Aug2019 15:10:42.739] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21Aug2019 15:10:42.739] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21Aug2019 15:10:42.740] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21Aug2019 15:10:42.740] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21Aug2019 15:10:42.741] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21Aug2019 15:10:42.832] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[21Aug2019 15:10:42.832] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[21Aug2019 15:10:42.915] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[21Aug2019 15:10:43.079] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.0.55_mapped_snapshot_20190719-1.14.3-recomp.jar
+[21Aug2019 15:10:43.534] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe johnsmod:purple_essence
+com.google.gson.JsonSyntaxException: Unknown ingredient type: forge:ore_dict
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:217) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeKey(ShapedRecipe.java:270) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:294) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:290) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:136) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_221]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:726) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:720) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1545) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:442) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+[21Aug2019 15:10:43.544] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe johnsmod:orange_essence
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:ore_shaped'
+	at net.minecraft.item.crafting.RecipeManager.lambda$deserializeRecipe$8(RecipeManager.java:135) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_221]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:134) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_221]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:726) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:720) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1545) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:442) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+[21Aug2019 15:10:43.550] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe johnsmod:orangeshapeless
+com.google.gson.JsonSyntaxException: Unknown ingredient type: forge:ore_dict
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:217) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.readIngredients(ShapelessRecipe.java:105) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:90) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:86) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:136) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_221]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_221]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:726) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:720) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1545) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:442) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+[21Aug2019 15:10:43.554] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[21Aug2019 15:10:44.567] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[21Aug2019 15:10:44.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Aug2019 15:10:45.318] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Aug2019 15:10:45.351] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Aug2019 15:10:46.688] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[21Aug2019 15:10:46.688] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[21Aug2019 15:10:46.853] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[21Aug2019 15:10:47.470] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[21Aug2019 15:10:47.854] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[21Aug2019 15:10:48.222] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3388 ms
+[21Aug2019 15:10:48.457] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Aug2019 15:10:48.458] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Aug2019 15:10:49.591] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[21Aug2019 15:10:49.695] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:1464be91] logged in with entity id 256 at (-181.30000001192093, 70.0, -54.5724656415416)
+[21Aug2019 15:10:49.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[21Aug2019 15:10:49.982] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[21Aug2019 15:10:49.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[21Aug2019 15:10:50.056] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
+[21Aug2019 15:10:51.303] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@22dc557b[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3527) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2276) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2154) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2044) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3973) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4957) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4963) ~[guava-25.1-jre.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1948) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$1(SkinManager.java:111) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+[21Aug2019 15:10:54.084] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[21Aug2019 15:10:54.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
