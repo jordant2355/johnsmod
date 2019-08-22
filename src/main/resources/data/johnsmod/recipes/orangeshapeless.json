@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "johnsmod:orange_essence"
+  },
+
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "dyeOrange"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

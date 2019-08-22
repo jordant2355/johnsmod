@@ -1,4 +1,4 @@
-Args: "--in-jar", "C:\dev\johnsmod\build\libs\johnsmod-1.0.jar", "--out-jar", "C:\dev\johnsmod\build\reobfJar\output.jar", "--srg-in", "C:\dev\johnsmod\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "C:\Users\User\Documents\GitHub\johnsmod\build\libs\johnsmod-1.0.jar", "--out-jar", "C:\Users\User\Documents\GitHub\johnsmod\build\reobfJar\output.jar", "--srg-in", "C:\Users\User\Documents\GitHub\johnsmod\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\User\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.0.55_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.0.55_mapped_snapshot_20190719-1.14.3-recomp.jar
 Classpath: C:\Users\User\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.0.55_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.0.55_mapped_snapshot_20190719-1.14.3-launcher.jar
@@ -78,7 +78,7 @@ Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.errorpron
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.9.0\94542933dfd3e94af27e9c7363833065a26f03db\jline-terminal-3.9.0.jar
-WorkDir: C:\dev\johnsmod\build\reobfJar
+WorkDir: C:\Users\User\Documents\GitHub\johnsmod\build\reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

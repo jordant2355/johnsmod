@@ -1,5 +1,5 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "xxx",
     "xxx",
@@ -12,6 +12,7 @@
     }
   },
   "result": {
-    "item": "johnsmod:orange_essence"
+    "item": "johnsmod:orange_essence",
+    "count": 1
   }
 }
