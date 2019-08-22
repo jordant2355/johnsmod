@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" x ", " b ", " y "],
+  "key": {
+    "x": {
+      "item": "johnsmod:orange_essence"
+    },
+    "y": {
+      "item": "johnsmod:purple_essence"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "johnsmod:secret_block"
+
+  }
+}

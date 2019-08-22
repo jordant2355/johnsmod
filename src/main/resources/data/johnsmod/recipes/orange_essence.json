@@ -1,14 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
-  ],
+  "pattern": ["xxx", "xxx", "xxx"],
   "key": {
     "x": {
-      "type": "forge:ore_dict",
-      "ore": "dyeOrange"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

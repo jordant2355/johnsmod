@@ -1,5 +1,7 @@
 
 {
   "item.johnsmod.orange_essence": "Orange Essence",
-  "item.johnsmod.purple_essence": "Purple Essence"
+  "item.johnsmod.purple_essence": "Purple Essence",
+  "block.johnsmod.secret_block": "???",
+  "block.johnsmod.sooper_secret_block": "??????????"
 }

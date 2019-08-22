@@ -1,17 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
-  ],
+  "pattern": ["xxx", "xxx", "xxx"],
   "key": {
     "x": {
-      "type": "forge:ore_dict",
-      "ore": "dyePurple"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {
-    "item": "johnsmod:purple_essence"
+    "item": "johnsmod:purple_essence",
+    "count": 1
   }
 }

@@ -3,7 +3,7 @@ Implementation-Title: johnsmod
 Implementation-Version: 1.0
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2019-08-22T09:33:03-0600
+Implementation-Timestamp: 2019-08-22T16:05:43-0600
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 

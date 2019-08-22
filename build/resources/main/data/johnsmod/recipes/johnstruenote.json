@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ooo", "oxp", "ppp"],
+  "key": {
+    "x": {
+      "item": "minecraft:book"
+    },
+    
+    "o": {
+      "item": "johnsmod:orange_essence"
+    },
+    
+    "p": {
+      "item": "johnsmod:purple_essence"
+    }
+
+  },
+  "result": {
+    "item": "johnsmod:sooper_secret_block"
+
+  }
+}
