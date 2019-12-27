@@ -32,7 +32,6 @@ Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.logging.l
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
-Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal-jna\3.9.0\527cb4b97820bdabecd7915a6be29915632251a8\jline-terminal-jna-3.9.0.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
 Classpath: C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
