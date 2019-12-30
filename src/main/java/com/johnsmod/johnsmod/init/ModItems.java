@@ -36,7 +36,6 @@ public class ModItems {
 
                 new Item(new Item.Properties()).setRegistryName(JohnsMod.MOD_ID, "orange_essence"),
                 new Item(new Item.Properties()).setRegistryName(JohnsMod.MOD_ID, "purple_essence"),
-                new Item(new Item.Properties()).setRegistryName(JohnsMod.MOD_ID, "purple_tulip"),
                 new BlockItem(ModBlocks.secret_block, new Item.Properties()).setRegistryName(ModBlocks.secret_block.getRegistryName()),
                 new BlockItem(ModBlocks.sooper_secret_block, new Item.Properties()).setRegistryName(ModBlocks.sooper_secret_block.getRegistryName()),
                 new BlockItem(ModBlocks.purple_tulip, new Item.Properties()).setRegistryName(ModBlocks.purple_tulip.getRegistryName())
