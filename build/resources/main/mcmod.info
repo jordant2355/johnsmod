@@ -1,0 +1,12 @@
+[{
+  "modid": "johnsmod",
+  "name": "John's Mod",
+  "description": "A few things for someone special.",
+  "version": "1.0.0.0",
+  "mcversion": "1.14.4",
+  "logoFile": "assets/johnsmod/textures/sooper_secret_block.png",
+  "url": "minecraftforge.net/",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["John"],
+  "credits": "<3"
+}]

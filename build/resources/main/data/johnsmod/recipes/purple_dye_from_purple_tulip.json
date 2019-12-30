@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "johnsmod:purple_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye"
+  }
+}
